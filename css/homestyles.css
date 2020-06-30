@@ -1,0 +1,259 @@
+body {
+  text-align: center;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+  
+
+/* Navigation Bar */  
+.navbar {
+  background-color: black;
+}
+.nav-item {
+  padding: 0 1px;
+}
+nav .navbar li a{
+  color: white !important;
+}
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Merriweather', serif;	
+}
+.navbar ul li{
+  list-style: none;
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+nav a:hover{
+	background-color: grey;
+	color: red;
+}
+  
+/*Background Logo Image*/ 
+#photo-bg{
+  padding: 0 0 0 0 ;
+}
+  
+/* Latest Trends Section */
+#button1{
+  position: absolute;
+  float: left;
+  top:40%;
+  right: 93%;
+}
+#button2{
+  position: absolute;
+  float: right;
+  top:40%;
+  left:93%;
+}
+#card-slider-heading{
+  padding-top: 6%; 
+}
+#card-slider-heading h1{
+  font-family: 'Merriweather', serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: black;
+}
+
+
+/*Card-Slider*/
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.row-equal .card {
+ width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+  display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+  opacity: 0.5;
+  display: flex;
+}
+
+/* control image height */
+.card-img-top-250 {
+  max-height: 250px;
+  overflow:hidden;
+}
+
+#postsCarousel{
+  padding: 1% 0% 4% 0%;
+}
+.card-block{
+  text-align: justify;
+  padding: 3% 5% 10% 5%;
+  font-family: 'Merriweather', serif;	
+  line-height: 1.8rem;
+}
+
+/*About Section*/
+#mam_img_text{
+  
+  padding-left: 50px;
+}
+
+#intro h1{
+  font-family: 'Merriweather', serif;
+  font-size: 1.9rem;
+  font-weight: 300;
+  color:black;
+  text-align: left;
+}
+.basic{
+ /* font-family: 'Courier Prime', monospace;	*/
+  font-family: 'Merriweather', serif;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 550;
+  line-height: 2.0rem;
+  color: black;
+}
+.quote{
+  font-family: 'Merriweather', serif;
+  font-size: 1.0rem;
+  font-weight: 300;
+}
+#profile_card .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+
+
+
+/* Quote */
+#blockquote-card{
+  width: 700px;
+  background-image: linear-gradient(to right,rgb(237, 100, 105),rgb(248, 132, 76));
+  margin-left: auto;
+  margin-right: auto;
+}
+#paint{
+  background-color: #000;
+  
+}
+#blockquote-card p{
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+}
+.blockquote-footer{
+  font-family: 'Merriweather', serif;
+  font-size: 1.2rem;
+}
+/* Footer Section */
+#footer{
+  padding: 7% 0 2% 0%;
+  background-image: linear-gradient(to right,rgb(237, 100, 105),rgb(248, 132, 76));
+}
+#footer p{
+  color: black;
+}
+#footer a{
+  color: black;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+  
+
+
+
+
+/*Categories pages*/
+#half_background_image{
+  padding: 0 0 0 0;
+}
+#content_category h1{
+  font-family: 'Merriweather', serif;
+}
+#content_category{
+justify-content: center;
+padding: 20px 20px 20px 20px ;
+line-height: 1.9rem;
+}
+#content_category p{
+font-family: 'Merriweather', serif;
+text-align: justify;
+}
+#content_category h3{
+font-family: 'Merriweather', serif;
+font-size: 1.5rem;
+font-weight: 400;
+}
+#content_category h2{
+font-family: 'Merriweather', serif;
+font-size: 2.5rem;
+font-weight: 400;
+text-align: center;
+}
+.cat_section{
+margin-top: -15px;
+}
+
+
+
+
+/*ContactUS Page */
+.form-row{
+  margin-bottom: 30px;
+}
+#feedback_form h1{
+  font-family: 'Merriweather', serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+#feedback_form label{
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+ 
+  
